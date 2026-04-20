@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  background: #111111;
+  color: #f5f5f5;
+  line-height: 1.7;
+}
+
+.top-nav {
+  background: #1b1b1b;
+  padding: 16px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.top-nav a {
+  color: #ffcb77;
+  text-decoration: none;
+  margin: 0 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.top-nav a:hover {
+  color: #ffffff;
+}
+
+.hero {
+  background:
+    linear-gradient(rgba(35, 13, 8, 0.65), rgba(80, 28, 18, 0.7)),
+    url("../images/Bonfire Provo Mall.png") center/cover no-repeat;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.35);
+  padding: 30px;
+  border-radius: 18px;
+  max-width: 800px;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 3.2rem;
+  color: #fff4e6;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: #ffe0b2;
+  margin: 16px 0 0;
+}
+
+.jump-button {
+  display: inline-block;
+  margin-top: 22px;
+  padding: 12px 20px;
+  background: #ffb703;
+  color: #151515;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.jump-button:hover {
+  background: #ffd166;
+}
+
+.content-section {
+  width: 86%;
+  max-width: 1050px;
+  margin: 28px auto;
+  background: #1c1c1c;
+  padding: 26px;
+  border-radius: 16px;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+}
+
+.content-section h2 {
+  margin-top: 0;
+  color: #ffcb77;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.two-column-wrap {
+  width: 86%;
+  max-width: 1050px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px;
+}
+
+.split-card {
+  flex: 1 1 450px;
+  margin: 0;
+}
+
+.split-card img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+  margin-bottom: 14px;
+}
+
+.info-box {
+  background: #2a2a2a;
+  border-left: 4px solid #ffb703;
+  padding: 14px 16px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+
+.info-box h3 {
+  margin-top: 0;
+  margin-bottom: 6px;
+  color: #ffe0b2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.tableau-placeholder {
+  background: #292929;
+  border: 2px dashed #ffcb77;
+  border-radius: 12px;
+  padding: 32px;
+  text-align: center;
+  color: #f8deb0;
+}
+
+.button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.page-button {
+  display: inline-block;
+  padding: 12px 18px;
+  background: #ffb703;
+  color: #111111;
+  text-decoration: none;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.page-button:hover {
+  background: #ffd166;
+}
+
+.footer {
+  text-align: center;
+  color: #bbbbbb;
+  padding: 26px 20px 36px;
+  font-size: 0.95rem;
+}
+
+ol, ul {
+  padding-left: 24px;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.4rem;
+  }
+
+  .content-section,
+  .two-column-wrap {
+    width: 92%;
+  }
+}

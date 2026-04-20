@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f9fa;
+  color: #212529;
+}
+
+.hero-section {
+  min-height: 70vh;
+  background: linear-gradient(135deg, #111827, #1f2937, #374151);
+}
+
+.card {
+  border: none;
+  border-radius: 1rem;
+}
+
+footer {
+  margin-top: 2rem;
+}
+
+
+.resume-card {
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08);
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+
+.portfolio-hero {
+  background: linear-gradient(135deg, #0f172a, #1e293b, #334155);
+}
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.portfolio-link-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.portfolio-link-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.12);
+}
